@@ -19,8 +19,6 @@
 		E886604D18038E8800E3581B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886604C18038E8800E3581B /* XCTest.framework */; };
 		E886604E18038E8800E3581B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886602D18038E8700E3581B /* Foundation.framework */; };
 		E886604F18038E8800E3581B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886603118038E8700E3581B /* UIKit.framework */; };
-		E886605718038E8800E3581B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E886605518038E8800E3581B /* InfoPlist.strings */; };
-		E886605918038E8800E3581B /* Tap_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E886605818038E8800E3581B /* Tap_MeTests.m */; };
 		E88660C41806356F00E3581B /* bg_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E88660B31806356F00E3581B /* bg_tile.png */; };
 		E88660C51806356F00E3581B /* bg_tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88660B41806356F00E3581B /* bg_tile@2x.png */; };
 		E88660C61806356F00E3581B /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E88660B51806356F00E3581B /* button_tap_deselected.png */; };
@@ -38,6 +36,7 @@
 		E88660D21806356F00E3581B /* field_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88660C11806356F00E3581B /* field_time@2x.png */; };
 		E88660D31806356F00E3581B /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E88660C21806356F00E3581B /* HallOfTheMountainKing.mp3 */; };
 		E88660D41806356F00E3581B /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E88660C31806356F00E3581B /* SecondBeep.wav */; };
+		E88660D618063D9700E3581B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88660D518063D9700E3581B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +66,6 @@
 		E886604518038E8800E3581B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E886604B18038E8800E3581B /* Tap MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E886604C18038E8800E3581B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E886605418038E8800E3581B /* Tap MeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap MeTests-Info.plist"; sourceTree = "<group>"; };
-		E886605618038E8800E3581B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E886605818038E8800E3581B /* Tap_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_MeTests.m; sourceTree = "<group>"; };
 		E88660B31806356F00E3581B /* bg_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tile.png; sourceTree = "<group>"; };
 		E88660B41806356F00E3581B /* bg_tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tile@2x.png"; sourceTree = "<group>"; };
 		E88660B51806356F00E3581B /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tap_deselected.png; sourceTree = "<group>"; };
@@ -87,6 +83,7 @@
 		E88660C11806356F00E3581B /* field_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "field_time@2x.png"; sourceTree = "<group>"; };
 		E88660C21806356F00E3581B /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
 		E88660C31806356F00E3581B /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
+		E88660D518063D9700E3581B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88660D618063D9700E3581B /* AVFoundation.framework in Frameworks */,
 				E886603018038E8700E3581B /* CoreGraphics.framework in Frameworks */,
 				E886603218038E8700E3581B /* UIKit.framework in Frameworks */,
 				E886602E18038E8700E3581B /* Foundation.framework in Frameworks */,
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				E886603318038E8800E3581B /* Tap Me */,
-				E886605218038E8800E3581B /* Tap MeTests */,
 				E886602C18038E8700E3581B /* Frameworks */,
 				E886602B18038E8700E3581B /* Products */,
 			);
@@ -135,6 +132,7 @@
 		E886602C18038E8700E3581B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E88660D518063D9700E3581B /* AVFoundation.framework */,
 				E886602D18038E8700E3581B /* Foundation.framework */,
 				E886602F18038E8700E3581B /* CoreGraphics.framework */,
 				E886603118038E8700E3581B /* UIKit.framework */,
@@ -181,24 +179,6 @@
 				E886603618038E8800E3581B /* InfoPlist.strings */,
 				E886603918038E8800E3581B /* main.m */,
 				E886603B18038E8800E3581B /* Tap Me-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E886605218038E8800E3581B /* Tap MeTests */ = {
-			isa = PBXGroup;
-			children = (
-				E886605818038E8800E3581B /* Tap_MeTests.m */,
-				E886605318038E8800E3581B /* Supporting Files */,
-			);
-			path = "Tap MeTests";
-			sourceTree = "<group>";
-		};
-		E886605318038E8800E3581B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E886605418038E8800E3581B /* Tap MeTests-Info.plist */,
-				E886605518038E8800E3581B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -306,7 +286,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E886605718038E8800E3581B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E886605918038E8800E3581B /* Tap_MeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +334,6 @@
 				E886604018038E8800E3581B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E886605518038E8800E3581B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E886605618038E8800E3581B /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
